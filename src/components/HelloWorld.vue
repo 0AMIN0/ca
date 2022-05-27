@@ -81,3 +81,8 @@ export default {
       this.op = "-";
       this.screen = "";
     },
+        div() {
+      this.value1 = parseFloat(this.screen, 10);
+      this.op = "/";
+      this.screen = "";
+    },
