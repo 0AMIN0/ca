@@ -131,4 +131,13 @@ export default {
     },
   },
 };
-</script>          
+</script>
+<style scoped>
+button {
+  border: 2px solid black;
+  margin: 2px;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+}          
