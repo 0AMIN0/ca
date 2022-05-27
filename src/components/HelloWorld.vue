@@ -147,3 +147,8 @@ table {
   background-color: red;
   border-radius: 5px;
 }
+input {
+  background-color: whi;
+  border-radius: 5px;
+  padding: 5px;
+}
