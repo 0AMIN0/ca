@@ -125,3 +125,5 @@ export default {
      case "del":
           this.screen = this.screen.slice(1);
           break;
+       default:
+          break;
