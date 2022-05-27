@@ -91,3 +91,6 @@ export default {
       this.op = "%";
       this.screen = "";
     },
+        remove() {
+      this.screen = this.screen.slice(1);
+    },
