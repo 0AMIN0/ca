@@ -122,3 +122,6 @@ export default {
      case ".":
           this.screen = this.screen + "." + this.scr2;
           break;
+     case "del":
+          this.screen = this.screen.slice(1);
+          break;
