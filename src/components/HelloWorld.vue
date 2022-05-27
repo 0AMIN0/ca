@@ -10,3 +10,8 @@
             type="number"
             style="padding: 5px; font-weight: bold; text-align: right"
           />
+           </td>
+
+        <td>
+        </td>
+      </tr>
