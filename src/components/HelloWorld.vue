@@ -42,3 +42,6 @@
         <td><button @click="decimal" id="decimal">.</button></td>
         <td><button @click="equal" id="equal">=</button></td>
        </tr>
+           </table>
+  </div>
+</template>
