@@ -30,7 +30,7 @@
         <td><button @click="remove" id="remove">del</button></td>
        </tr>
         <tr>
-        <td<button @click="digit(7)" class="digit">7</button></td>
+        <td><button @click="digit(7)" class="digit">7</button></td>
         <td><button @click="digit(8)" class="digit">8</button></td>
         <td><button @click="digit(9)" class="digit">9</button></td>
         <td><button @click="div" id="div">/</button></td>
