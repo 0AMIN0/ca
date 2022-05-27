@@ -63,67 +63,72 @@ export default {
     digit(n) {
       this.screen += n;
     },
-        sum() {
+    sum() {
       this.value1 = parseFloat(this.screen, 10);
       this.op = "+";
       this.screen = "";
     },
-        mul() {
+    mul() {
       this.value1 = parseFloat(this.screen, 10);
       this.op = "*";
       this.screen = "";
     },
-        decimal() {
+    decimal() {
       this.screen = this.screen + "." + this.display;
     },
-        minus() {
+    minus() {
       this.value1 = parseFloat(this.screen, 10);
       this.op = "-";
       this.screen = "";
     },
-        div() {
+    div() {
       this.value1 = parseFloat(this.screen, 10);
       this.op = "/";
       this.screen = "";
     },
-        mod() {
+    mod() {
       this.value1 = parseFloat(this.screen, 10);
       this.op = "%";
       this.screen = "";
     },
-        remove() {
+    remove() {
       this.screen = this.screen.slice(1);
     },
-        clear() {
+    clear() {
       this.screen = "";
     },
-        equal() {
+    equal() {
       switch (this.op) {
         case "+":
           this.value2 = parseFloat(this.screen, 10);
           this.screen = this.value2 + this.value1;
           break;
-       case "-":
+        case "-":
           this.value2 = parseFloat(this.screen, 10);
           this.screen = this.value1 - this.value2;
           break;
-       case "/":
+        case "/":
           this.value2 = parseFloat(this.screen, 10);
           this.screen = this.value1 / this.value2;
           break;
-      case "%":
+        case "%":
           this.value2 = parseFloat(this.screen, 10);
           this.screen = this.value1 % this.value2;
           break;
-      case "*":
+        case "*":
           this.value2 = parseFloat(this.screen, 10);
           this.screen = this.value1 * this.value2;
           break;
-     case ".":
+        case ".":
           this.screen = this.screen + "." + this.scr2;
           break;
-     case "del":
+        case "del":
           this.screen = this.screen.slice(1);
           break;
-       default:
+        default:
           break;
+      }
+    },
+  },
+};
+</script>          
