@@ -36,3 +36,9 @@
         <td><button @click="div" id="div">/</button></td>
         <td><button @click="clear" id="clear">C</button></td>
        </tr>
+        <tr>
+        <td colspan="2"><button @click="digit(0)" class="digit">0</button></td>
+        <td><button @click="sum" id="sum">+</button></td>
+        <td><button @click="decimal" id="decimal">.</button></td>
+        <td><button @click="equal" id="equal">=</button></td>
+       </tr>
