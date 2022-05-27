@@ -73,3 +73,6 @@ export default {
       this.op = "*";
       this.screen = "";
     },
+        decimal() {
+      this.screen = this.screen + "." + this.display;
+    },
