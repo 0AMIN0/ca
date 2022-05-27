@@ -97,3 +97,9 @@ export default {
         clear() {
       this.screen = "";
     },
+        equal() {
+      switch (this.op) {
+        case "+":
+          this.value2 = parseFloat(this.screen, 10);
+          this.screen = this.value2 + this.value1;
+          break;
