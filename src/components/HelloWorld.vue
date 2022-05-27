@@ -86,3 +86,8 @@ export default {
       this.op = "/";
       this.screen = "";
     },
+        mod() {
+      this.value1 = parseFloat(this.screen, 10);
+      this.op = "%";
+      this.screen = "";
+    },
