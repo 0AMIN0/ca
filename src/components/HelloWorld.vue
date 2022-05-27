@@ -13,12 +13,19 @@
            </td>
 
         <td>
-      </tr>        </td>
- 
+            </td>
+      </tr>       
         <tr>
          <td><button @click="digit(1)" class="digit">1</button></td>
          <td><button @click="digit(2)" class="digit">2</button></td>
          <td><button @click="digit(3)" class="digit">3</button></td>
          <td><button @click="minus" id="minus">-</button></td>
          <td><button @click="mod" id="mod">%</button></td>
+       </tr>
+       <tr>
+        <td><button @click="digit(4)" class="digit">4</button></td>
+        <td><button @click="digit(5)" class="digit">5</button></td>
+        <td><button @click="digit(6)" class="digit">6</button></td>
+        <td><button @click="mul" id="mul">*</button></td>
+        <td><button @click="remove" id="remove">del</button></td>
        </tr>
