@@ -115,7 +115,10 @@ export default {
           this.value2 = parseFloat(this.screen, 10);
           this.screen = this.value1 % this.value2;
           break;
-                  case "*":
+      case "*":
           this.value2 = parseFloat(this.screen, 10);
           this.screen = this.value1 * this.value2;
+          break;
+     case ".":
+          this.screen = this.screen + "." + this.scr2;
           break;
