@@ -76,3 +76,8 @@ export default {
         decimal() {
       this.screen = this.screen + "." + this.display;
     },
+        minus() {
+      this.value1 = parseFloat(this.screen, 10);
+      this.op = "-";
+      this.screen = "";
+    },
